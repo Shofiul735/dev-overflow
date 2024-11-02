@@ -1,3 +1,9 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript","standard"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "standard", //npm i eslint-config-standard
+    "plugin:tailwindcss/recommended", //npm install eslint-plugin-tailwindcss
+    "prettier" //npm install eslint-config-prettier, and prettier 
+  ]
 }
