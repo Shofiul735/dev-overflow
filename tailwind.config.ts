@@ -53,8 +53,8 @@ const config: Config = {
         xs: "420px",
       },
       fontFamily: {
-        inter: ["var(--font-inter)"],
-        "space-grotesk": ["var(--font-space-grotesk)"],
+        "inter": ["var(--font-inter)"], 
+        "space-grotesk": ["var(--font-space-grotesk)"], 
       },
     },
   },
