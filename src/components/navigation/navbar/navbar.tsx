@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ThemeDropdown } from "./theme-dropdown";
 
 export const Navbar = () => {
   return (
@@ -19,7 +20,9 @@ export const Navbar = () => {
         </p>
       </Link>
       <div>Search</div>
-      <div className="flex-between gap-5">Theme</div>
+      <div className="flex-between gap-5">
+        <ThemeDropdown />
+      </div>
     </nav>
   );
 };
