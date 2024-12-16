@@ -1,3 +1,4 @@
+import { SocialAuthForm } from "@/components/forms/SocialAuthForm";
 import Image from "next/image";
 import { ReactNode } from "react";
 
@@ -23,7 +24,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
 
         {children}
 
-        <p>Socal Auth</p>
+        <SocialAuthForm />
       </section>
     </main>
   );
